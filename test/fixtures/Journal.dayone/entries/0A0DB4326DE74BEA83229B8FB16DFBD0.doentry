@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Stationary</string>
+	<key>Creation Date</key>
+	<date>2015-02-01T05:01:13Z</date>
+	<key>Entry Text</key>
+	<string># Flux
+どうにかしたい</string>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array/>
+	<key>Time Zone</key>
+	<string>Asia/Tokyo</string>
+	<key>UUID</key>
+	<string>0A0DB4326DE74BEA83229B8FB16DFBD0</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2012-06-01T09:00:20Z</date>
+	<key>Entry Text</key>
+	<string># Title
+text body
+body2</string>
+	<key>Starred</key>
+	<false/>
+	<key>UUID</key>
+	<string>04C8B7E7B84A4605A560D7927411D7D7</string>
+	<key>Tags</key>
+	<array>
+		<string>memo</string>
+	</array>
+</dict>
+</plist>

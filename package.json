@@ -1,0 +1,51 @@
+{
+  "name": "dayone-to-quiver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/dayone-to-quiver.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/dayone-to-quiver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/dayone-to-quiver/issues"
+  },
+  "version": "1.0.0",
+  "description": "DayOne Journal to Quiver",
+  "main": "index.js",
+  "bin": {
+    "dayone-to-quiver": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish":"npm run --if-present build",
+    "test": "mocha"
+  },
+  "keywords": [
+    "quiver",
+    "dayone"
+  ],
+  "dependencies": {
+    "glob": "^6.0.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "plist": "^1.2.0",
+    "remove-markdown": "0.0.6",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-plugin-add-module-exports": "^0.1.3-alpha",
+    "babel-preset-es2015": "^6.3.13",
+    "espower-babel": "^4.0.1",
+    "mocha": "^2.3.4",
+    "power-assert": "^1.2.0"
+  }
+}

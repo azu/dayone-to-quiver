@@ -1,0 +1,4 @@
+$ dayone-to-quiver --entry Journal.dayone --output output.qvnotebook
+
+    --entry path to Journal.dayone
+    --output output path
