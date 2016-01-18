@@ -3,7 +3,6 @@ const moment = require("moment");
 const removeMd = require('remove-markdown');
 export default class DayOneEntry {
     constructor(entryObject) {
-        console.log(entryObject);
         const createdDate = moment(entryObject["Creation Date"]);
         const entryText = entryObject['Entry Text'];
         const entryLines = entryText.split("\n");
