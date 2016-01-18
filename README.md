@@ -1,4 +1,4 @@
-# dayone-to-quiver
+# dayone-to-quiver [![Build Status](https://travis-ci.org/azu/dayone-to-quiver.svg?branch=master)](https://travis-ci.org/azu/dayone-to-quiver)
 
 Convert DayOne's Journal.dayone to [Quiver notebook](https://github.com/HappenApps/Quiver/wiki/Quiver-Data-Format "Quiver notebook") file.
 

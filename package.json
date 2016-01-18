@@ -13,7 +13,12 @@
   },
   "version": "1.0.0",
   "description": "DayOne Journal to Quiver",
-  "main": "index.js",
+  "main": "lib/dayone-to-quiver.js",
+  "files": [
+    "bin",
+    "lib",
+    "src"
+  ],
   "bin": {
     "dayone-to-quiver": "bin/cmd.js"
   },
@@ -23,7 +28,7 @@
   "scripts": {
     "build": "babel src --out-dir lib --source-maps",
     "watch": "babel src --out-dir lib --watch --source-maps",
-    "prepublish":"npm run --if-present build",
+    "prepublish": "npm run --if-present build",
     "test": "mocha"
   },
   "keywords": [
