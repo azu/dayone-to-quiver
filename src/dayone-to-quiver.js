@@ -37,5 +37,6 @@ export function dayOneToQuiver(dayOneFilePath, outputDir) {
         fs.writeFileSync(path.join(qvnoteDir, 'meta.json'), JSON.stringify(builder.toMeta(), null, 2));
         // create content
         fs.writeFileSync(path.join(qvnoteDir, 'content.json'), JSON.stringify(builder.toContent(), null, 2));
+        console.log("Created " + qvnoteDir);
     });
 }
