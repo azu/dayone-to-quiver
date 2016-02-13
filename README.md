@@ -4,6 +4,12 @@ Convert DayOne's Journal.dayone to [Quiver notebook](https://github.com/HappenAp
 
 ## Support
 
+dayone-to-quiver support DayOne v1 Journal.dayone format.
+
+We don't know DayOne v2, but welcome to pull request.
+
+### Supported Quiver Data Format
+
 - [x] created_at
 - [x] updated_at is same with created_at
 - [x] tags
