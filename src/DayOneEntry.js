@@ -1,4 +1,4 @@
-const uuid = require('node-uuid');
+const uuid = require('uuid');
 const moment = require("moment");
 const removeMd = require('remove-markdown');
 export default class DayOneEntry {

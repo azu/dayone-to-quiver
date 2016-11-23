@@ -40,9 +40,9 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "moment": "^2.11.1",
-    "node-uuid": "^1.4.7",
     "plist": "^1.2.0",
     "remove-markdown": "0.0.6",
+    "uuid": "^3.0.0",
     "xml2js": "^0.4.16"
   },
   "devDependencies": {
